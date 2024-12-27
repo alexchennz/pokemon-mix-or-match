@@ -27,10 +27,7 @@ function App() {
   };
 
   function checkCardMatch(card) {
-    // console.log('Card:', card);
     if (!card.canFlip || !canClick) return; 
-
-    
 
     playSound('../assets/Audio/flip.wav');
 
@@ -44,12 +41,10 @@ function App() {
 
     setObjects((prevObjects) => {
       const updatedObjects = [...prevObjects, card];
-      // console.log('Updated Objects:', updatedObjects); // Log the updated state
       return updatedObjects;
     });
     setClickCount((prevCount) => {
       const newCount = prevCount + 1;
-      // console.log('New Click Count:', newCount); // Log the updated click count
       return newCount;
     });
   }
@@ -76,7 +71,6 @@ function App() {
     setClickCount(0);
     setMatchCount(0);
     setObjects([]);
-    // setStarted(false);
     setVictory(false);
     setTimeLeft(totalTime);
   }
@@ -119,10 +113,7 @@ function App() {
       const currentObject = objects[objects.length - 1];
       const previousObject = objects[objects.length - 2];
       if (currentObject && previousObject) {
-        // console.log('Comparing:', previousObject, currentObject);
         if (currentObject.image === previousObject.image) {
-          // currentObject.card.canFlip = false;
-          // previousObject.card.canFlip = false;
           playSound(currentObject.cries);
           setShuffledCards((prevCards) =>
             prevCards.map((card) =>
@@ -132,26 +123,21 @@ function App() {
             )
           );
           setMatchCount((prevCount) => prevCount + 2);
-          // console.log(matchCount)
+          
           if (matchCount === CARDS.items.length - 2) {
             setVictory(true);
             bgSoundRef.current.currentTime = 0;
             bgSoundRef.current.pause();
             
             victorySoundRef.current.play();
-            // playSound('../assets/Audio/victory.mp3');
-            // console.log('victory', victory);
 
             if (intervalRef.current) {
               clearInterval(intervalRef.current);
               intervalRef.current = null; // Ensure the ref is reset
             }
           }
-          // console.log('Both object values are equal.');
-          // setCanClick(true); // Re-enable clicking
+
         } else {
-          // currentObject.card.toFlip = true;
-          // previousObject.card.toFlip = true;
           setTimeout(() => {
             setShuffledCards((prevCards) =>
               prevCards.map((card) =>
@@ -160,9 +146,7 @@ function App() {
                   : card
               )
             );
-            // setCanClick(true); // Re-enable clicking
           }, 1000);
-          // console.log('Both object values are not equal.');
         }        
       }
     }
@@ -172,7 +156,7 @@ function App() {
 
   return (
     <div className="h-screen font-pokemonsolid">
-      <h1 className="font-pokemonhollow text-mm-yellow font-normal text-8xl text-center my-16">Pokemon Mix or Match</h1>
+      <h1 className="font-pokemonhollow text-mm-brown font-normal text-8xl text-center my-16">Pokemon Mix or Match</h1>
 
       <div className={`fixed top-0 left-0 right-0 bottom-0 z-50 justify-center items-center flex-col text-mm-orange font-pokemonhollow transition-all duration-500 animate-overlay-grow overlay-text ${!started ? 'visible' : 'hidden'}`} onClick={startGame}>
           Click to Start

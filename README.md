@@ -1,5 +1,5 @@
 # Pokemon Mix or Match game 
-This small Pokemon game built in React, with tailwind
+A small Pokemon game built in React, with tailwind
 
 Vercel URL: https://pokemon-mix-or-match.vercel.app/
 

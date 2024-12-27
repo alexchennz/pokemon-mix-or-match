@@ -12,7 +12,7 @@ export default {
         'pokemonhollow': ['"PokemonHollow"', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        'mm-yellow': '#6a3900',
+        'mm-brown': '#6a3900',
         'mm-orange': '#c59439',
       }
     },
