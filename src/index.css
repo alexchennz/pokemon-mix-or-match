@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @font-face {
+    font-family: "Creepy";
+    src: url("assets/Fonts/Creepy.woff") format("woff"),
+         url("assets/Fonts/Creepy.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Lunacy";
+    src: url("assets/Fonts/Lunacy.woff") format("woff"),
+         url("assets/Fonts/Lunacy.woff2") format("woff2");
+} */
+
+@font-face {
+  font-family: 'PokemonSolid';
+  src: url('assets/Fonts/PokemonSolidNormal.woff2') format('woff2'),
+      url('assets/Fonts/PokemonSolidNormal.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PokemonHollow';
+  src: url('assets/Fonts/PokemonHollowNormal.woff2') format('woff2'),
+      url('assets/Fonts/PokemonHollowNormal.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body{
+    background: url("assets/Images/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.card-face{
+    backface-visibility: hidden;
+}
+
+.card.visible .card-back {
+    transform: rotateY(-180deg); 
+}
+
+.card.visible .card-front {
+    transform: rotateY(0); 
+}
+
+.card.matched .card-front .card-value {
+    animation: dance 1s linear infinite 500ms;
+}
+
+.card-back {
+    transform: rotateY(0); 
+}
+
+.overlay-text.visible {
+    display: flex;
+    animation: overlay-grow 500ms forwards;
+}
+
+@keyframes overlay-grow {
+    from {
+      background-color: rgba(0, 0, 0, 0);
+      font-size: 0;
+    }
+    to {
+      background-color: rgba(0, 0, 0, .8);
+      font-size: 10em;
+    }
+}

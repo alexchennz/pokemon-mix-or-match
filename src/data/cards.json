@@ -1,0 +1,117 @@
+{
+    "items": [
+      {
+        "id": 1,
+        "image": "../assets/Images/pikachu.jpg",
+        "canFlip": true,
+        "toFlip": false,
+        "cries": "../assets/Audio/pikachu.ogg"
+      },
+      {
+        "id": 2,
+        "image": "../assets/Images/pikachu.jpg",
+        "canFlip": true,
+        "toFlip": false,
+        "cries": "../assets/Audio/pikachu.ogg"
+      },
+      {
+        "id": 3,
+        "image": "../assets/Images/charmander.jpg",
+        "canFlip": true,
+        "toFlip": false,
+        "cries": "../assets/Audio/charmander.mp3"
+      },
+      {
+        "id": 4,
+        "image": "../assets/Images/charmander.jpg",
+        "canFlip": true,
+        "toFlip": false,
+        "cries": "../assets/Audio/charmander.mp3"
+      },
+      {
+        "id": 5,
+        "image": "../assets/Images/bulbasaur.jpg",
+        "canFlip": true,
+        "toFlip": false,
+        "cries": "../assets/Audio/bulbasaur.mp3"
+      },
+      {
+        "id": 6,
+        "image": "../assets/Images/bulbasaur.jpg",
+        "canFlip": true,
+        "toFlip": false,
+        "cries": "../assets/Audio/bulbasaur.mp3"
+      },
+      {
+        "id": 7,
+        "image": "../assets/Images/dratini.jpg",
+        "canFlip": true,
+        "toFlip": false,
+        "cries": "../assets/Audio/dratini.mp3"
+      },
+      {
+        "id": 8,
+        "image": "../assets/Images/dratini.jpg",
+        "canFlip": true,
+        "toFlip": false,
+        "cries": "../assets/Audio/dratini.mp3"
+      },
+      {
+        "id": 9,
+        "image": "../assets/Images/jynx.jpg",
+        "canFlip": true,
+        "toFlip": false,
+        "cries": "../assets/Audio/jynx.mp3"
+      },
+      {
+        "id": 10,
+        "image": "../assets/Images/jynx.jpg",
+        "canFlip": true,
+        "toFlip": false,
+        "cries": "../assets/Audio/jynx.mp3"
+      },
+      {
+        "id": 11,
+        "image": "../assets/Images/nidoran_male.jpg",
+        "canFlip": true,
+        "toFlip": false,
+        "cries": "../assets/Audio/nidoran_male.mp3"
+      },
+      {
+        "id": 12,
+        "image": "../assets/Images/nidoran_male.jpg",
+        "canFlip": true,
+        "toFlip": false,
+        "cries": "../assets/Audio/nidoran_male.mp3"
+      },
+      {
+        "id": 13,
+        "image": "../assets/Images/squirtle.jpg",
+        "canFlip": true,
+        "toFlip": false,
+        "cries": "../assets/Audio/squirtle.mp3"
+      },
+      {
+        "id": 14,
+        "image": "../assets/Images/squirtle.jpg",
+        "canFlip": true,
+        "toFlip": false,
+        "cries": "../assets/Audio/squirtle.mp3"
+      },
+      {
+        "id": 15,
+        "image": "../assets/Images/zapdos.jpg",
+        "canFlip": true,
+        "toFlip": false,
+        "cries": "../assets/Audio/zapdos.mp3"
+      },
+      {
+        "id": 16,
+        "image": "../assets/Images/zapdos.jpg",
+        "canFlip": true,
+        "toFlip": false,
+        "cries": "../assets/Audio/zapdos.mp3"
+      }
+    ]
+  }
+  
