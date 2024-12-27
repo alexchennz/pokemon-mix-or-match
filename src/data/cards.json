@@ -72,17 +72,17 @@
     },
     {
       "id": 11,
-      "image": "../assets/Images/nidoran_male.jpg",
+      "image": "../assets/Images/eevee.jpg",
       "canFlip": true,
       "toFlip": false,
-      "cries": "../assets/Audio/nidoran_male.mp3"
+      "cries": "../assets/Audio/eevee.mp3"
     },
     {
       "id": 12,
-      "image": "../assets/Images/nidoran_male.jpg",
+      "image": "../assets/Images/eevee.jpg",
       "canFlip": true,
       "toFlip": false,
-      "cries": "../assets/Audio/nidoran_male.mp3"
+      "cries": "../assets/Audio/eevee.mp3"
     },
     {
       "id": 13,
