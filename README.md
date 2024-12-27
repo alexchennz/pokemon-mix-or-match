@@ -1,6 +1,8 @@
 # Pokemon Mix or Match game 
 This small Pokemon game built in React, with tailwind
 
+Vercel URL: https://pokemon-mix-or-match.vercel.app/
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
